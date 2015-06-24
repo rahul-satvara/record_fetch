@@ -1,6 +1,6 @@
 <project name="Automation" default="clean" basedir=".">
     <property name="build.dir" value="${basedir}/build"/>
-    <property name="lib.dir" value="${basedir}/lib"/>
+    <property name="lib.dir" value="${basedir}/libs"/>
     <property name="src.dir" value="${basedir}/src"/>
     <property name="browser" value="/usr/local/firefox/firefox"/>
     <target name="setClassPath">
