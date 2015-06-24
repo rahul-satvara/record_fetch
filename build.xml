@@ -35,7 +35,7 @@
     </target>
     <target name="runTests" depends="compile">
         <testng classpath="${test.classpath}:${build.dir}">
-            <xmlfileset dir="${basedir}" includes="Debug.xml"/>
+            <xmlfileset dir="${basedir}" includes="testng.xml"/>
         </testng>
     </target>
     <target name="report" depends="runTests">
