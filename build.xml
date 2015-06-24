@@ -2,7 +2,7 @@
 	<!-- ========== Initialize Properties =================================== -->
 	<!-- set global properties for build -->
 	<property name="basedir" value="." />
-	<property name="lib" value="${basedir}/lib" />
+	<property name="lib" value="${basedir}/libs" />
 	<property name="src" value="${basedir}/src" />
 	<property name="bin" value="${basedir}/bin" />
 	<property name="report-dir" value="${basedir}/Test-Report" />
