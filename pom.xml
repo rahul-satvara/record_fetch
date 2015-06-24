@@ -43,16 +43,17 @@
  <configuration> 
  <source>1.7</source>
  <target>1.7</target> 
- </configuration>  </p1ugin> 
+ </configuration>  
+ </plugin> 
  <plugin>
-    <plugin> 
+    
 
  <groupId>org.apache.maven.plugins</groupId> 
  <artifactId>maven-surefire-plugin</artifactId> 
  <version>2.12</version> 
  <inherited>true</inherited>
  <configuration> 
- <suiteXm1Files>  
+ <suiteXmlFiles>  
  
  <suiteXmlFile>testng.xml</suiteXmlFile> 
  </suiteXmlFiles>
