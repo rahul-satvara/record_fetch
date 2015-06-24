@@ -10,6 +10,15 @@
   <name>record_fetch</name>
   <url>http://maven.apache.org</url>
 <plugins> 
+<plugin> 
+ <groupId>org.apache.maven.plugins</groupId> 
+ <artifactId>maven-compiler-plugin</artifactId>
+ <version>2.3.2</version> 
+ <configuration> 
+ <source>1.7</source>
+ <target>1.7</target> 
+ </configuration>  </p1ugin> 
+ <plugin>
     <plugin> 
 
  <groupId>org.apache.maven.plugins</groupId> 
